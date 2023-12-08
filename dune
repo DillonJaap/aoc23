@@ -1,0 +1,5 @@
+(executables
+ (names day1 day2 day3)
+ (libraries base stdio re core_unix.sys_unix)
+ (flags (:standard -w -69)))
+
