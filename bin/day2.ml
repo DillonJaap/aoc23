@@ -82,3 +82,9 @@ module Part2 = struct
       acc + pow)
   ;;
 end
+
+let () =
+  printf "\nDay 2:\n";
+  Part1.run "inputs/day2.txt" |> printf "%d\n";
+  Part2.run "inputs/day2.txt" |> printf "%d\n"
+;;

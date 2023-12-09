@@ -82,3 +82,9 @@ module Part2 = struct
     List.fold ~init:0 ~f:(fun acc n -> acc + n) ints
   ;;
 end
+
+let () =
+  printf "\nDay 1:\n";
+  Part1.run "inputs/day1.txt" |> printf "%d\n";
+  Part2.run "inputs/day1.txt" |> printf "%d\n"
+;;
