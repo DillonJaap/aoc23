@@ -1,5 +1,6 @@
 (executables
- (names day1 day2 day3)
+ (names day1 day2 day3 day3_attempt2 day4 day5)
  (libraries core base stdio re core_unix.sys_unix)
- (flags (:standard -w -69)))
-
+ (flags (:standard -w -69))
+ (preprocess
+  (pps ppx_deriving.show)))
